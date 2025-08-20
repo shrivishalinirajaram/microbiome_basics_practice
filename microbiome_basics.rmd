@@ -1,0 +1,24 @@
+---
+title: "microbiome_data_analysis"
+author: "Shri Vishalini Rajaram"
+date: "2025-08-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+## Activate environment and install packages
+# renv::init()
+# renv::install("remotes")
+# remotes::install_github("twbattaglia/MicrobeDS")
+# if (!require("BiocManager", quietly = TRUE))
+#     install.packages("BiocManager")
+# BiocManager::install("phyloseq")
+```
+
+```{r}
+
+```
+
