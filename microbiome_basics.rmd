@@ -5,17 +5,19 @@ date: "2025-08-20"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, warning=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-```{r}
+
+## Install basic packages
+
+```{r packages, warning=FALSE, message=FALSE, echo=TRUE}
 ## Activate environment and install packages
 # renv::init()
-# renv::install("remotes")
+# renv::install(c("remotes", "BiocManager"))
 # remotes::install_github("twbattaglia/MicrobeDS")
-# if (!require("BiocManager", quietly = TRUE))
-#     install.packages("BiocManager")
-# BiocManager::install("phyloseq")
+# renv::install("bioc::phyloseq")
+# renv::snapshot()
 ```
 
 ```{r}
