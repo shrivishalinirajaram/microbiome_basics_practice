@@ -13,4 +13,3 @@ Dataset used: [RISK_CCFA from MicrobeDS](https://github.com/twbattaglia/MicrobeD
 ## Diversity analysis
 
 This will help to understand which all organisms are there, how many are there and how much abundant they are.
-
